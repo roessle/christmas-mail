@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import "ink";
+@import "colors";
+
+// Custom styles
+body, .body {
+  background: $white;
+}
+
+.bar {
+  background-color: $maroon;
+  background-image: url(http://assets.roessle.eu/images/backgrounds/bar.png);
+  height: 20px;
+}
+
+.header {
+  background-color: $sand;
+  background-image: url(http://assets.roessle.eu/images/backgrounds/light_stone.jpg);
+
+  p {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+}
+
+.hero-1 {
+  background-color: $maroon;
+
+  h1 {
+    color: $white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+table.columns td.hero-1 {
+  padding: 0px;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: #2a2a2a;
+
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $white;
+    margin-bottom: 0px;
+
+    &.imprint {
+      font-size: 16px;
+    }
+    &.unsubscribe {
+      font-size: 14px;
+    }
+  }
+}
+
+
+h1, h2, h3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
