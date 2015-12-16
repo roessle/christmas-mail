@@ -18,8 +18,11 @@ body, .body {
   background-image: url(http://assets.roessle.eu/images/backgrounds/light_stone.jpg);
 
   p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0px;
+  }
+  a, a:visited, a:hover {
+    color: #333333;
   }
 }
 
@@ -58,6 +61,12 @@ table.columns td.hero-1 {
       font-size: 14px;
     }
   }
+  a, a:visited, a:hover {
+    color: $white !important;
+  }
+  .imprint a {
+    text-decoration: none;
+  }
 }
 
 
@@ -65,4 +74,14 @@ h1, h2, h3 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+td {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
 }
