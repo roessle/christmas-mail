@@ -1,6 +1,6 @@
 # Christmas Mail
 
-> This is Christmas Mail description 
+Template for yearly mail on Christmas
 
 ## How to install
 
