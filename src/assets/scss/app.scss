@@ -1,52 +1,51 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
-@import "ink";
-@import "colors";
 
-// Custom styles
-body, .body {
+@import 'colors';
+@import 'settings';
+@import 'foundation-emails';
+
+// Body Styles
+body, html, .body {
   background: $white;
 }
 
 .header {
   background-color: $sand;
   background-image: url(http://assets.roessle.eu/images/backgrounds/light_stone.jpg);
+}
 
-  p {
-    font-size: 14px;
-    margin-bottom: 0px;
-  }
-  a, a:visited, a:hover {
-    color: #333333;
-  }
+.header .container {
+  background: transparent;
 }
 
 .hero-1 {
-  background-color: $maroon;
-
-  h1 {
-    color: $white;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  table {
+    background-color: $maroon;
+    h1 {
+      color: $white;
+      font-size: 18px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
   }
 }
 
-table.columns td.hero-1 {
-  padding: 0px;
+.poem {
+  font-style: italic;
 }
 
 .footer {
-  margin-top: 50px;
   background-color: #2a2a2a;
 
   .container {
+    background: none;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   p {
     color: $white;
-    margin-bottom: 0px;
+    margin-bottom: 12px;
 
     &.imprint {
       font-size: 16px;
@@ -63,19 +62,6 @@ table.columns td.hero-1 {
   }
 }
 
-
-h1, h2, h3 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 a {
   text-decoration: underline;
-}
-
-td {
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  hyphens: none;
 }
